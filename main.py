@@ -25,6 +25,7 @@ def get_post():
 # def create_post(payLoad: dict = Body(...)):
 def create_post(new_post: Post):
     print(new_post.rating)
+    #return {"new_post": f"{payload['title] content: {payload['content]}}"}
     return {"data": "new_post"}
 
 ## title str , content str 
