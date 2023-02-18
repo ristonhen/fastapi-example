@@ -11,7 +11,10 @@ class Post(BaseModel):
     content: str
     published: bool = True
     rating: Optional[int] = None
-
+my_post = [
+    {"title": "title of post 1", "contnet": "content of post 1","id": 1},
+    {"title": "favorite foods", "contnet": "I like pizza","id": 2},
+]
 # request Get method 
 @app.get("/")
 def read_root():
@@ -19,13 +22,20 @@ def read_root():
 
 @app.get("/posts")
 def get_post():
-    return {"data": "This is your API"}
+    return {"data": my_post}
 
-@app.post("/createposts")
-# def create_post(payLoad: dict = Body(...)):
-def create_post(new_post: Post):
-    print(new_post.rating)
-    #return {"new_post": f"{payload['title] content: {payload['content]}}"}
-    return {"data": "new_post"}
+# @app.post("/createposts")
+# # def create_post(payLoad: dict = Body(...)):
+# def create_post(new_post: Post):
+#     print(new_post.rating)
+#     # print(post.dict())
+#     #return {"new_post": f"{payload['title] content: {payload['content]}}"}
+#     return {"data": "new_post"}
+
+@app.post("/posts")
+def create_posts(post: Post):
+    print(post)
+    print(post.dict())
+    return {"data": post}
 
 ## title str , content str 
