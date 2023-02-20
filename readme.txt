@@ -2,7 +2,7 @@
 $ py -3 -m venv venv
 $ venv\Scripts\activate.bat
 $ pip install fastapi[all]
-$ pip freeze ## To show all pkg
+$ pip freeze                                ## To show all pkg
 
 $ uvicorn main:app                          ## run App
 uvicorn main:app --reload
@@ -19,7 +19,7 @@ uvicorn main:app --reload
 
 
 github@branch/c/remote/push  (new-branch)
-git clone https://github.com/learn-git-fast/git-branch-examples.git
+git clone https://github.com/ristonhen/fastapi.git
 cd git*
 git checkout -b task-1
 
@@ -35,3 +35,8 @@ touch eden.html
 git add .
 git commit -m "Eden added"
 git push origin
+
+
+
+### HTTP Request message status code .
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
