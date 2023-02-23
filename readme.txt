@@ -3,6 +3,7 @@ $ py -3 -m venv venv
 $ venv\Scripts\activate.bat
 $ pip install fastapi[all]
 $ pip install "passlib[bcrypt]"
+$ pip install "python-jose[cryptography]"
 $ pip freeze                                ## To show all pkg
 
 $ uvicorn main:app                          ## run App
@@ -19,7 +20,7 @@ https://youtu.be/0sOvCWFmrtA?t=20688
 #git commit to branch
 #https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/git-push-new-branch-remote-github-gitlab-upstream-example
 
-
+task-4-routers
 
 github@branch/c/remote/push  (new-branch)
 git clone https://github.com/ristonhen/fastapi.git
