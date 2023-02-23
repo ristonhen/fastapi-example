@@ -31,12 +31,12 @@ git branch -a
 touch devolution.jpg
 git add .
 git commit -m "connect pg"
-git push --set-upstream origin task-2
+git push --set-upstream origin task-3
 
 github@branch/c/remote/push (new-branch)
 touch eden.html
 git add .
-git commit -m "Eden added"
+git commit -m "Completed normal API"
 git push origin
 
 
