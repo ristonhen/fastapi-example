@@ -15,7 +15,7 @@ $ pip install SQLAlchemy
 
 
 
-https://youtu.be/0sOvCWFmrtA?t=20688
+https://youtu.be/0sOvCWFmrtA
 
 #git commit to branch
 #https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/git-push-new-branch-remote-github-gitlab-upstream-example
@@ -25,7 +25,7 @@ task-4-routers
 github@branch/c/remote/push  (new-branch)
 git clone https://github.com/ristonhen/fastapi.git
 cd git*
-git checkout -b task-2
+git checkout -b task-5-router-aut
 
 github@branch/c/remote/push (task-2)
 git branch -a
