@@ -12,10 +12,10 @@ uvicorn app.main:app --reload
 ## https://docs.sqlalchemy.org/en/14/
 $ pip install SQLAlchemy
 
+#open window go to "Edit the system environment"
 
 
-
-https://youtu.be/0sOvCWFmrtA
+https://youtu.be/0sOvCWFmrtA?t=33512
 
 #git commit to branch
 #https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/git-push-new-branch-remote-github-gitlab-upstream-example
@@ -25,14 +25,14 @@ task-4-routers
 github@branch/c/remote/push  (new-branch)
 git clone https://github.com/ristonhen/fastapi.git
 cd git*
-git checkout -b task-5-router-aut
+git checkout -b task-6-addconfig
 
 github@branch/c/remote/push (task-2)
 git branch -a
 touch devolution.jpg
 git add .
-git commit -m "connect pg"
-git push --set-upstream origin task-4-routers
+git commit -m "complet with config"
+git push --set-upstream origin task-6-addconfig
 
 github@branch/c/remote/push (new-branch)
 touch eden.html
